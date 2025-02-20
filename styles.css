@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.passport-caption{
+    
+    display: inline-flex;
+    width: 1000px;
+    height: 600px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.passport-text{
+    display: inline-flex;
+    flex-direction: column;
+    width : 700px
+}
+
+.passport-banner{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #333;
+    color: white;
+    margin-top : 20px;
+    
+}
+
+.passport-banner img{
+    display : inline-block;
+    width : 600px;
+    height : 600px
+}
+
+.passport-caption h2{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.passport-caption p {
+    font-size: 1rem;
+}
+
+#spaninoubli{
+    color: orange;
+}
+
+.avis{
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+.banners{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avis-banner{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 1200px;
+    border-radius: 5px;
+}
+
+.avis-user{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    float: right;
+    justify-content: space-around;
+    
+}
+
+.avis-text{
+    width: 900px;
+    margin : 30px
+}
+
+.username{
+    color: orange;
+}
+
+.userjob{
+    font-style: italic;
+}
+
+.avis-user img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.avis-user p{
+    margin: 5px;
+}
+
+
+.avis h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left : 160px;
+    font-weight: 50;
+    font-size: 2rem;
+    margin-top : 50px;
+    margin-bottom: 50px;
+}

@@ -27,8 +27,174 @@
     margin: 10px;
 }
 
-.herosc{
-    background-image: url(assets/hero.jpg);
-    height : 400px;
+.header li:hover {
+    color:orange
 }
 
+.herosc{
+    background : url(assets/herohero.jpg) center center/cover no-repeat;
+    height : 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.herosc h1{
+    font-size: 3.2rem;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.herosc h2{
+    color: orange;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.herosc p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 750px;
+    margin-bottom: 30px;
+    
+}
+
+.dealsection{
+    background-color: #afb9b2;
+    padding-bottom: 60px;
+}
+
+.dealsection h3{
+    padding-top: 40px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.dealbanner img{
+    width:400px;
+    height: 600px;
+}
+
+.deals{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dealbanner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.dealbanner span{
+    color: orange;
+    font-weight: bold;
+}
+
+.title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.dealbanner p {
+    width: 250px;
+}
+
+.separator{
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.passport{
+    display: flex;
+    height: 500px;
+    
+}
+
+.passport img{
+    width: 800px;
+    height: 500px;
+}
+
+.passtextcontainer{
+    width: 1200px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+}
+
+.passtext{
+    padding: 20px;
+}
+
+.passtext h2{
+    margin-bottom: 20px;
+}
+
+.avis{
+    background-color: #afb9b2;
+}
+
+.avisbanners{
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.avisbanner{
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    align-items: center;
+}
+
+.avisbanner p{
+    display: inline-block;
+    
+    
+}
+
+
+.userbanner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    width: 140px;
+    float: right;
+    padding: 10px 20px;
+}
+
+.userbanner img{
+    height: 30px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.userbanner p{
+    width: 100px;
+}
